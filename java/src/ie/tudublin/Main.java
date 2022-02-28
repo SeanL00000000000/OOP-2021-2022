@@ -1,5 +1,7 @@
 package ie.tudublin;
 
+
+
 public class Main
 {
     public static void helloProcessing()
@@ -19,8 +21,16 @@ public class Main
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new Loops());
     }
+    public static void Audio1()
 
-    public static void Arrays()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Audio1());
+    }
+    
+
+    public static void arrays()
+
 	{
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new Arrays());
