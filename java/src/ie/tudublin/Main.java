@@ -36,6 +36,14 @@ public class Main
         processing.core.PApplet.runSketch( a, new Arrays());
     }
 
+    public static void BugZap()
+
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new BugZap());
+    }
+
+
     public void cat()
     {
         System.out.println("Hello world");
@@ -61,7 +69,7 @@ public class Main
     }
     public static void main(String[] args)
     {
-        loops();
+        Audio1();
 
         // Tara Misty
         // Tara Tara
