@@ -44,7 +44,7 @@ public class Audio1 extends PApplet
                 //float c = map(ab.get(i), -1,1,0,255);
                 float c = map(i, 0, ab.size(),0,255);
                 stroke(c,255,255);
-               // line(i,halfH,i,halfH+ab.get(i)*halfH);
+                line(i,halfH,i,halfH+ab.get(i)*halfH);
                 sum +=abs(ab.get(i));
 
 
