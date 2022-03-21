@@ -10,14 +10,14 @@ public class Audio1 extends PApplet
 {
     Minim minim;
     AudioPlayer ap;
-<<<<<<< HEAD
+
     AudioInput Ai;
     AudioBuffer ab;
     
     public void settings()
     {
         size(1024,500);
-=======
+
     AudioInput ai;
     AudioBuffer ab;
 
@@ -46,13 +46,13 @@ public class Audio1 extends PApplet
     {
         size(1024, 1000, P3D);
         //fullScreen(P3D, SPAN);
->>>>>>> 0e4ccf8c75afbd2fba88b712508569ab5bba12ee
+
     }
 
     public void setup()
     {
         minim = new Minim(this);
-<<<<<<< HEAD
+
         Ai =  minim.getLineIn(Minim.MONO, width,44100,16);
         ab=Ai.mix;
         colorMode(HSB);
@@ -102,7 +102,7 @@ public class Audio1 extends PApplet
     float y;
     float smoothedY;
     float lerpedA = 0;
-=======
+
         // Uncomment this to use the microphone
         // ai = minim.getLineIn(Minim.MONO, width, 44100, 16);
         // ab = ai.mix; 
@@ -231,5 +231,5 @@ public class Audio1 extends PApplet
         */
 
     }        
->>>>>>> 0e4ccf8c75afbd2fba88b712508569ab5bba12ee
+
 }
